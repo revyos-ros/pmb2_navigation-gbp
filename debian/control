@@ -1,0 +1,12 @@
+Source: ros-foxy-pmb2-navigation
+Section: misc
+Priority: optional
+Maintainer: Federico Nardi <federico.nardi@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake-auto, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-pmb2-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-pmb2-2dnav, ros-foxy-pmb2-maps, ros-foxy-ros-workspace
+Description: PMB2 navigation metapackage
