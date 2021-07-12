@@ -1,0 +1,12 @@
+Source: ros-foxy-pmb2-maps
+Section: misc
+Priority: optional
+Maintainer: Victor Lopez <victor.lopez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-pmb2-maps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-ros-workspace
+Description: PMB2-specific maps and launch files.
