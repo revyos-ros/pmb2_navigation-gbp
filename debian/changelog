@@ -1,0 +1,526 @@
+ros-foxy-pmb2-2dnav (3.0.1-1focal) focal; urgency=high
+
+  * Add missing ament_cmake_auto dependency
+  * Contributors: Victor Lopez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 13 Jul 2021 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (3.0.0-1focal) focal; urgency=high
+
+  * Remove ROS1 launch files
+  * Comment dependencies pending to be migrated to ROS2
+  * Fix costmaps and increase max velocity
+  * Revert "Fix usage of map argument"
+    This reverts commit 22d9e4a02b93fa5e9016738312538740a8c7e376.
+    Specifying full path is more work but more flexible
+  * Fix usage of map argument
+  * Reduce max speeds to avoid crashing into walls
+    A similara issue seems to be reported in:
+    https://github.com/ros-planning/navigation2/issues/938
+    Probably we need more tunning for our robot and/or a different
+    controller
+  * Fixes for slam
+  * More linter fixes
+  * Remove hard coded map
+  * First working pmb2_nav_bringup launch file
+  * Contributors: Victor Lopez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 11 Jul 2021 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.8-1focal) focal; urgency=high
+
+  * Merge branch 'rename_tf_prefix' into 'erbium-devel'
+    Rename tf_prefix to robot_namespace
+    See merge request robots/pmb2_navigation!46
+  * Rename tf_prefix to robot_namespace
+  * Contributors: davidfernandez, victor
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 29 Jul 2020 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.7-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 01 Jul 2020 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.6-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 01 Apr 2020 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.5-1focal) focal; urgency=high
+
+  * passing subtype parameter to move_base
+  * Contributors: federiconardi
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 21 Nov 2019 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.4-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 30 Sep 2019 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.3-1focal) focal; urgency=high
+
+  * use scan_raw for mapping
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 22 Sep 2019 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.2-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 17 Sep 2019 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.1-1focal) focal; urgency=high
+
+  * Merge branch 'multi_pmb2' into 'erbium-devel'
+    Add multi pmb2 navigation
+    See merge request robots/pmb2_navigation!40
+  * Add multi pmb2 navigation
+  * Contributors: Adria Roig, Victor Lopez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 18 Jul 2019 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (2.0.0-1focal) focal; urgency=high
+
+  * added pal_navigation_cfg_pmb2 dependency
+  * moved config and launch to pal_navigation_cfg_pmb2
+  * Contributors: Procópio Stein, Sai Kishor Kothakota
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 16 Jun 2019 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (1.0.6-1focal) focal; urgency=high
+
+  * Merge branch 'update_adv_nav' into 'erbium-devel'
+    Update AdvNav Rviz config
+    See merge request robots/pmb2_navigation!38
+  * Update AdvNav Rviz config
+  * Contributors: Victor Lopez, davidfernandez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 19 May 2019 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (1.0.5-1focal) focal; urgency=high
+
+  * updated teb config to match tiago's
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 05 May 2019 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (1.0.4-1focal) focal; urgency=high
+
+  * Merge branch 'update-karto-cfg' into 'erbium-devel'
+    updated karto params to improve loop closures
+    See merge request robots/pmb2_navigation!36
+  * updated karto params to improve loop closures
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 21 Mar 2019 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (1.0.3-1focal) focal; urgency=high
+
+  * Merge branch 'public_eband_conf' into 'erbium-devel'
+    added eband planner config
+    See merge request robots/pmb2_navigation!35
+  * added eband planner config
+  * Merge branch 'plugin_fix' into 'erbium-devel'
+    public simulation plugin fix
+    See merge request robots/pmb2_navigation!34
+  * public simulation plugin fix
+  * Contributors: Sai Kishor Kothakota, Victor Lopez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 24 Jan 2019 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (1.0.2-1focal) focal; urgency=high
+
+  * Merge branch 'public_sim_kinetic' into 'erbium-devel'
+    add Kinetic pulbic simulation changes
+    See merge request robots/pmb2_navigation!33
+  * add kinetic public simulation changes
+  * Contributors: Sai Kishor Kothakota, Victor Lopez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 16 Jan 2019 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (1.0.1-1focal) focal; urgency=high
+
+  * Fix typo
+  * Contributors: Victor Lopez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 14 Jan 2019 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (1.0.0-1focal) focal; urgency=high
+
+  * Merge branch 'specifics-refactor' into 'erbium-devel'
+    Specifics refactor
+    See merge request robots/pmb2_navigation!30
+  * Cosmetic
+  * Add parameters for using rgbd
+  * Specify one karto file per laser model
+  * Contributors: Victor Lopez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 18 Dec 2018 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.17-1focal) focal; urgency=high
+
+  * change the param load order to overrite the karto config
+  * activated latch xy for goals
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 18 Dec 2018 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.16-1focal) focal; urgency=high
+
+  * added sonar layer
+  * added sound feedback for loop closure
+  * Contributors: Procópio Stein, Sai Kishor Kothakota
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 20 Nov 2018 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.15-1focal) focal; urgency=high
+
+  * Merge branch 'clear-vo-on-recovery' into 'dubnium-devel'
+    added vo clearing in recovery behavior
+    See merge request robots/pmb2_navigation!25
+  * added vo clearing in recovery behavior
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Fri, 19 Oct 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.14-1focal) focal; urgency=high
+
+  * updated costmaps config to correspond to template generation
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 02 Oct 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.13-1focal) focal; urgency=high
+
+  * slightly increased max_threshold from 1.5 to 1.8
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 27 Sep 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.12-1focal) focal; urgency=high
+
+  * changed param name from threshold to max_threshold
+  * removed deprecated parameter
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 25 Sep 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.11-1focal) focal; urgency=high
+
+  * Merge branch 'adjust-plp-params' into 'dubnium-devel'
+    increased max threshold and reduced security
+    See merge request robots/pmb2_navigation!23
+  * increased max threshold and reduced security
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 25 Sep 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.10-1focal) focal; urgency=high
+
+  * increased plp threshold
+  * updated recovery to match cobra, but commented blanking recoveries
+  * updated rviz config
+  * enabled search alternative goals
+  * reduced pub freq of costmaps, cleaned them up
+  * adjusted default threshold and sec distance
+  * better visualization
+  * updated pal_local_planner config
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 16 Sep 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.9-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 21 Jun 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.8-1focal) focal; urgency=high
+
+  * updated amcl and karto configs for clarity and to match last developments in specifics
+  * added odom filter config and changed search path to pmb2_2dnav
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 16 May 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.7-1focal) focal; urgency=high
+
+  * added slippage related launch files
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 14 May 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.6-1focal) focal; urgency=high
+
+  * Revert "avoid oscillating global path and prefer shorter paths"
+    This reverts commit 0d0601e59441e560ffb56ce15d7cb37bce0a9d71.
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 23 Apr 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.5-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 16 Apr 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.4-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 11 Apr 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.3-1focal) focal; urgency=high
+
+  * added TEB config
+  * disable navigation in unknown
+  * added dependency on range layer and teb local planner
+  * avoid oscillating global path and prefer shorter paths
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 05 Apr 2018 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.2-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 07 Mar 2018 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.1-1focal) focal; urgency=high
+
+  * Merge branch 'respawn-move-base' into 'dubnium-devel'
+    added respawn flag to move_base.launch
+    See merge request robots/pmb2_navigation!11
+  * added respawn flag to move_base.launch
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 14 Feb 2018 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.13.0-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 31 Jan 2018 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.12.0-1focal) focal; urgency=high
+
+  * updated parameter due to refactoring in pal-local-planner
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 16 Oct 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.10-1focal) focal; urgency=high
+
+  * normalized package.xml for all packages
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 26 Sep 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.9-1focal) focal; urgency=high
+
+  * updated parameters to new pal local planner
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 18 Sep 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.8-1focal) focal; urgency=high
+
+  * added config base path arg, so it can load params from .pal
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 17 Sep 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.7-1focal) focal; urgency=high
+
+  * allow global plan in unkown spaces
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 07 Aug 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.6-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 02 Jul 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.5-1focal) focal; urgency=high
+
+  * added rotate recovery behavior
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 29 Jun 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.4-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 29 Jun 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.3-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 31 May 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.2-1focal) focal; urgency=high
+
+  * updated adv nav rviz config
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 24 Apr 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.1-1focal) focal; urgency=high
+
+  * added advanced nav config
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Fri, 21 Apr 2017 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.11.0-1focal) focal; urgency=high
+
+  * removed legacy move_base configs
+  * updated costmap files to match template
+  * fixed global planner config file
+  * updated rviz navigation config
+  * 0.10.4
+  * changelogs
+  * updated costmap and recovery params
+  * fixed robot radius
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 27 Feb 2017 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.10.4-1focal) focal; urgency=high
+
+  * updated costmap and recovery params
+  * fixed robot radius
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 27 Feb 2017 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.10.3-1focal) focal; urgency=high
+
+  * enhanced navigation config, fixed recovery behaviors
+  * Contributors: Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Thu, 23 Feb 2017 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.10.2-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 22 Feb 2017 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.10.1-1focal) focal; urgency=high
+
+  * removed rgbd launches and config, fixed dependencies
+  * minor changes in mapping and localization config
+  * better mapping and slam configurations
+  * updated local_planner config for enhanced version of planner
+  * updated costmap config based on new tiago files
+  * add rviz launch file
+  * Contributors: Jeremie Deray, Procópio Stein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 22 Feb 2017 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.10.0-1focal) focal; urgency=high
+
+  * use degree
+  * Contributors: Jeremie Deray
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 14 Mar 2016 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.15-1focal) focal; urgency=high
+
+  * missing deps maps
+  * Contributors: Jeremie Deray
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 09 Mar 2016 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.14-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 01 Mar 2016 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.13-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 09 Feb 2016 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.12-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Tue, 09 Feb 2016 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.11-1focal) focal; urgency=high
+
+
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 08 Feb 2016 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.10-1focal) focal; urgency=high
+
+  * final review of parameters with jeremie
+  * restoring plugins in costmaps (but commented)
+  * correcting errors in pm2_2dnav
+    restored amcl laser range to default values, corrected typo in local costmap, removed plugins example
+  * minor cleaning in pmb2 navigation files
+  * cleaned generic pmb2_2dnav and improved specific pmb2_5_2dnav
+  * Contributors: Procopio Stein, procopiostein
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Mon, 08 Feb 2016 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.9-1focal) focal; urgency=high
+
+  * disable free space mapping for pmb2 & add warning abt it
+  * Fixing localization amcl jumps
+  * update rviz conf
+  * Custom launch file for pmb2-5
+  * Contributors: Jeremie Deray, Luca Marchionni
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 25 Oct 2015 23:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.8-1focal) focal; urgency=high
+
+  * typo
+  * add slam graph display to rviz
+  * amcl laser min/max range
+  * karto laser max_range
+  * karto map free space
+  * reduce global inflation radius
+  * reduce visualization pub rate
+  * amcl config add param defaut value + comments
+  * rviz do not display sonar/rgbd related stuff
+  * do not launch xtion related stuff
+  * deactivate rgbd layer for costmaps
+  * Add laser classification displays
+  * Sync filter script with ant
+  * Sync with ant_2dnav
+  * Add covariance (odometry + pose) displays
+    NOTE they are disabled by default because they have some issues yet
+    with the 6DOF mode property, which is not disabled properly on startup
+  * Update layout and add inertia + CoM marker
+  * Update rviz layout
+  * Increase the number of sonars from 3 to 5
+  * Contributors: Enrique Fernandez, Jeremie Deray
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Wed, 30 Sep 2015 22:00:00 -0000
+
+ros-foxy-pmb2-2dnav (0.9.7-1focal) focal; urgency=high
+
+  * Replace ant -> pmb2
+  * Rename files
+  * Contributors: Enrique Fernandez
+
+ -- Jeremie Deray <jeremie.deray@pal-robotics.com>  Sun, 01 Feb 2015 23:00:00 -0000
+
+
