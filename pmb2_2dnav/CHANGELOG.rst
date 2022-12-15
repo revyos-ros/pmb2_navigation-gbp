@@ -2,6 +2,14 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.0 (2022-12-15)
+------------------
+* Merge pull request #1 from jmguerreroh/humble-devel
+  Enhancing Tiago's navigation parameters
+* Updating Tiago parameters
+* Enhancing Tiago's navigation parameters
+* Contributors: Sai Kishor Kothakota, jmguerreroh
+
 3.0.2 (2022-10-21)
 ------------------
 * Merge branch 'missing_dependency' into 'humble-devel'
