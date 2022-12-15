@@ -1,0 +1,12 @@
+Source: ros-humble-pmb2-maps
+Section: misc
+Priority: optional
+Maintainer: Jordan Palacios <jordan.palacios@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-pmb2-maps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ros-workspace
+Description: PMB2-specific maps and launch files.
