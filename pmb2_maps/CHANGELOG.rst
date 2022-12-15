@@ -2,6 +2,9 @@
 Changelog for package pmb2_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.0 (2022-12-15)
+------------------
+
 3.0.2 (2022-10-21)
 ------------------
 * Merge branch 'update_copyright' into 'humble-devel'
