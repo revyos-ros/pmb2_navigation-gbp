@@ -2,6 +2,9 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.4 (2023-04-28)
+------------------
+
 4.0.3 (2023-04-14)
 ------------------
 * Merge branch 'fix/deps' into 'humble-devel'
