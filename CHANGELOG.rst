@@ -2,6 +2,30 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.9 (2023-12-18)
+------------------
+* Merge branch 'fix/clean' into 'humble-devel'
+  Clean old scripts
+  See merge request robots/pmb2_navigation!77
+* Clean old scripts
+* Contributors: Noel Jimenez, antoniobrandi
+
+4.0.8 (2023-11-14)
+------------------
+* Add website tag
+* Contributors: Noel Jimenez
+
+4.0.7 (2023-11-07)
+------------------
+
+4.0.6 (2023-09-20)
+------------------
+* Merge branch 'remove_pal_flags_dependency' into 'humble-devel'
+  Remove pal flags dependency
+  See merge request robots/pmb2_navigation!72
+* Remove pal flags dependency
+* Contributors: Jordan Palacios, Noel Jimenez
+
 4.0.5 (2023-06-16)
 ------------------
 * Merge branch 'feat/laser-filters' into 'humble-devel'
