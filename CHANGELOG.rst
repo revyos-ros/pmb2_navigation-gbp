@@ -2,6 +2,36 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.12 (2024-02-13)
+-------------------
+* Merge branch 'abr/fix/world-name' into 'humble-devel'
+  set default world_name for standalone navigation
+  See merge request robots/pmb2_navigation!80
+* set default world_name for standalone navigation
+* Contributors: antoniobrandi
+
+4.0.11 (2024-02-12)
+-------------------
+* Merge branch 'fix/pal_nav2_bringup' into 'humble-devel'
+  Use pal_nav2_bringup only for private simulation
+  See merge request robots/pmb2_navigation!79
+* Use pal_nav2_bringup only for private simulation
+* Contributors: Noel Jimenez, antoniobrandi
+
+4.0.10 (2024-02-02)
+-------------------
+* Merge branch 'feat/register-components' into 'humble-devel'
+  using components and parameters
+  See merge request robots/pmb2_navigation!78
+* linters
+* removing defaults
+* update remappings for real robot
+* simplify launch files and adapt for public_sim
+* adding nav config for composition and standalone
+* using pal_nav2_bringup
+* using components and parameters
+* Contributors: antoniobrandi
+
 4.0.9 (2023-12-18)
 ------------------
 * Merge branch 'fix/clean' into 'humble-devel'
