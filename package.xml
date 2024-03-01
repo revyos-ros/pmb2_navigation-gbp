@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>pmb2_2dnav</name>
-  <version>4.0.9</version>
+  <version>4.0.12</version>
   <description>PMB2-specific launch files needed to run
     navigation on the PMB2 robot.</description>
   <maintainer email="jordan.palacios@pal-robotics.com">Jordan Palacios</maintainer>
@@ -15,8 +15,8 @@
 
   <exec_depend>pmb2_laser_sensors</exec_depend>
   <exec_depend>pmb2_maps</exec_depend>
-  <exec_depend>pal_navigation_cfg_bringup</exec_depend>
-  <exec_depend condition="$PAL_DISTRO > 0">pal_navigation_cfg_monitor</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend condition="$PAL_DISTRO > 0">pal_nav2_bringup</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>ros2launch</exec_depend>
 
