@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>pmb2_2dnav</name>
-  <version>4.0.12</version>
+  <version>4.0.19</version>
   <description>PMB2-specific launch files needed to run
     navigation on the PMB2 robot.</description>
   <maintainer email="jordan.palacios@pal-robotics.com">Jordan Palacios</maintainer>
@@ -12,11 +12,14 @@
   <url type="website">https://github.com/pal-robotics/pmb2_simulation</url>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  
+  <build_depend condition="$PAL_DISTRO >= alum">pal_module_cmake</build_depend>
 
   <exec_depend>pmb2_laser_sensors</exec_depend>
-  <exec_depend>pmb2_maps</exec_depend>
+  <exec_depend>pal_maps</exec_depend>
   <exec_depend>nav2_bringup</exec_depend>
-  <exec_depend condition="$PAL_DISTRO > 0">pal_nav2_bringup</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">pal_nav2_bringup</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">pal_nav2_bt_navigator</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>ros2launch</exec_depend>
 

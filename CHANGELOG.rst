@@ -2,6 +2,65 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.19 (2024-06-18)
+-------------------
+* fix incorrect map path
+* Contributors: David Brown
+
+4.0.18 (2024-06-03)
+-------------------
+
+4.0.17 (2024-05-29)
+-------------------
+* Merge branch 'fix/aca/public-sim' into 'humble-devel'
+  fix public sim
+  See merge request robots/pmb2_navigation!88
+* fix public sim
+* Contributors: Noel Jimenez, andreacapodacqua
+
+4.0.16 (2024-05-09)
+-------------------
+* Merge branch 'fix/aca/module' into 'humble-devel'
+  moved module to 00 and fix pal module dep
+  See merge request robots/pmb2_navigation!85
+* moved module to 00 and fix pal module dep
+* Contributors: andreacapodacqua
+
+4.0.15 (2024-04-29)
+-------------------
+* Merge branch 'abr/feat/deprecate-maps' into 'humble-devel'
+  deprecate pmb2_maps
+  See merge request robots/pmb2_navigation!84
+* deprecated pmb2_maps
+* Contributors: antoniobrandi
+
+4.0.14 (2024-04-23)
+-------------------
+* Merge branch 'feat/variables' into 'humble-devel'
+  using variables for pipelines
+  See merge request robots/pmb2_navigation!83
+* using variables in lifecycle manager
+* using new variables names
+* using variables
+* Contributors: andreacapodacqua, josegarcia
+
+4.0.13 (2024-04-11)
+-------------------
+* Merge branch 'feat/ros2-pipelines' into 'humble-devel'
+  Feat/ros2 pipelines
+  See merge request robots/pmb2_navigation!82
+* cosmetic and removed unused launch files laser
+* public sim launch change and renamed pipeline
+* fix public_sim condition
+* params laser pipeline and modified slam arg
+* linters
+* modified params
+* linters
+* navigation pipeline integration for private sim
+* fear navigation pipelines
+* navigation pipeline
+* Contributors: andreacapodacqua, antoniobrandi
+
 4.0.12 (2024-02-13)
 -------------------
 * Merge branch 'abr/fix/world-name' into 'humble-devel'
