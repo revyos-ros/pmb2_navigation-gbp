@@ -2,6 +2,51 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.19 (2024-06-18)
+-------------------
+
+4.0.18 (2024-06-03)
+-------------------
+* Merge branch 'abr/fix/laser-footprint' into 'humble-devel'
+  Use circular footprint laser filter
+  See merge request robots/pmb2_navigation!89
+* Update pmb2_laser_sensors/params/laser_pipeline.yaml, pmb2_laser_sensors/params/laser_pipeline_w_composition.yaml
+* Contributors: antoniobrandi
+
+4.0.17 (2024-05-29)
+-------------------
+
+4.0.16 (2024-05-09)
+-------------------
+
+4.0.15 (2024-04-29)
+-------------------
+
+4.0.14 (2024-04-23)
+-------------------
+* Merge branch 'feat/variables' into 'humble-devel'
+  using variables for pipelines
+  See merge request robots/pmb2_navigation!83
+* using variables in lifecycle manager
+* using new variables names
+* using variables
+* using variables for pipelines
+* Contributors: andreacapodacqua, josegarcia
+
+4.0.13 (2024-04-11)
+-------------------
+* Merge branch 'feat/ros2-pipelines' into 'humble-devel'
+  Feat/ros2 pipelines
+  See merge request robots/pmb2_navigation!82
+* cosmetic and removed unused launch files laser
+* public sim launch change and renamed pipeline
+* fix dep
+* params laser pipeline and modified slam arg
+* modified params
+* fear navigation pipelines
+* navigation pipeline
+* Contributors: andreacapodacqua, antoniobrandi
+
 4.0.12 (2024-02-13)
 -------------------
 
