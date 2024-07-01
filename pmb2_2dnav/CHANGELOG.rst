@@ -2,6 +2,14 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.21 (2024-07-01)
+-------------------
+* Merge branch 'abr/feat/advanced-navigation' into 'humble-devel'
+  using costmap with filters
+  See merge request robots/pmb2_navigation!93
+* using costmap with filters
+* Contributors: antoniobrandi
+
 4.0.20 (2024-06-25)
 -------------------
 * Merge branch 'abr/feat/rviz-nav' into 'humble-devel'
