@@ -1,3 +1,32 @@
+## pmb2_navigation (humble) - 4.0.23-1
+
+The packages in the `pmb2_navigation` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble pmb2_navigation -y` on `Tue, 06 Aug 2024 08:39:02 -0000`
+
+These packages were released:
+- `pmb2_2dnav`
+- `pmb2_laser_sensors`
+- `pmb2_navigation`
+
+These packages were explicitly ignored:
+- `pmb2_rgbd_sensors`
+
+Version of package(s) in repository `pmb2_navigation`:
+
+- upstream repository: https://github.com/pal-robotics/pmb2_navigation.git
+- release repository: https://github.com/pal-gbp/pmb2_navigation-gbp.git
+- rosdistro version: `4.0.21-1`
+- old version: `4.0.21-1`
+- new version: `4.0.23-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## pmb2_navigation (humble) - 4.0.21-1
 
 The packages in the `pmb2_navigation` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble pmb2_navigation` on `Mon, 01 Jul 2024 11:15:57 -0000`
