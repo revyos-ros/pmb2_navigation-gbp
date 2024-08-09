@@ -2,6 +2,12 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.1.1 (2024-08-06)
+------------------
+
+4.1.0 (2024-08-06)
+------------------
+
 4.0.23 (2024-07-12)
 -------------------
 * Merge branch 'feat/aca/pipeline-substitution' into 'humble-devel'

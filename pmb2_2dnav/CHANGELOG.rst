@@ -2,6 +2,25 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.1.1 (2024-08-06)
+------------------
+* Merge branch 'abr/fix/public-sim' into 'humble-devel'
+  fix public sim
+  See merge request robots/pmb2_navigation!96
+* fix public sim
+* Contributors: antoniobrandi
+
+4.1.0 (2024-08-06)
+------------------
+* Merge branch 'air/unify_pkgs' into 'humble-devel'
+  restructure pmb2 launch file
+  See merge request robots/pmb2_navigation!95
+* Unify quotation marks
+* Unify quotation marks
+* add launch_pal dependency
+* restructure pmb2 launch file
+* Contributors: Aina, antoniobrandi
+
 4.0.23 (2024-07-12)
 -------------------
 * Merge branch 'feat/aca/pipeline-substitution' into 'humble-devel'
