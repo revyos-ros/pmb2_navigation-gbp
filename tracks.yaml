@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/pmb2_navigation-gbp
 tracks:
   foxy:
     actions:
