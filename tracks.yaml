@@ -1,4 +1,4 @@
-release_repo_url: git@github.com:revyos-ros/pmb2_navigation-gbp
+release_repo_url: git@github.com:revyos-ros/pmb2_navigation-gbp.git
 tracks:
   foxy:
     actions:
