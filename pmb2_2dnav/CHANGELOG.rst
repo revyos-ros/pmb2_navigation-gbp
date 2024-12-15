@@ -2,6 +2,66 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.7.0 (2024-12-02)
+------------------
+* Merge branch 'abr/feat/deps-and-specs' into 'humble-devel'
+  nav deps and specs
+  See merge request robots/pmb2_navigation!108
+* nav deps and specifics
+* Contributors: antoniobrandi
+
+4.6.2 (2024-11-22)
+------------------
+* Merge branch 'abr/fix/suppress-footprint-error' into 'humble-devel'
+  suppress footprint error
+  See merge request robots/pmb2_navigation!107
+* suppress footprint error
+* Contributors: antoniobrandi
+
+4.6.1 (2024-11-21)
+------------------
+* Merge branch 'abr/fix/rviz' into 'humble-devel'
+  start rviz with use_public_sim
+  See merge request robots/pmb2_navigation!106
+* start rviz with use_public_sim
+* Contributors: antoniobrandi
+
+4.6.0 (2024-11-14)
+------------------
+* Merge branch 'abr/feat/nav-params' into 'humble-devel'
+  register nav variables and pipelines
+  See merge request robots/pmb2_navigation!103
+* disable costmap filters for normal nav
+* register modules
+* update public sim paths
+* support multi-robot
+* using new pipelines architecture
+* Contributors: antoniobrandi
+
+4.5.0 (2024-10-25)
+------------------
+* Merge branch 'abr/fix/mppi' into 'humble-devel'
+  Use mppi when composition
+  See merge request robots/pmb2_navigation!102
+* Use mppi when composition
+* Contributors: antoniobrandi
+
+4.4.0 (2024-10-18)
+------------------
+* Merge branch 'man/feat/stress-tests' into 'humble-devel'
+  stress test config
+  See merge request robots/pmb2_navigation!98
+* stress test config
+* Contributors: antoniobrandi, martinaannicelli
+
+4.3.0 (2024-10-17)
+------------------
+* Merge branch 'man/feat/nav-rviz-config' into 'humble-devel'
+  added unless condition to rviz
+  See merge request robots/pmb2_navigation!100
+* added unless condition to rviz
+* Contributors: antoniobrandi, martinaannicelli
+
 4.2.0 (2024-09-03)
 ------------------
 * Merge branch 'man/feat/docking' into 'humble-devel'
