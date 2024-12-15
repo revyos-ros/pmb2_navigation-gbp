@@ -1,3 +1,30 @@
+## pmb2_navigation (humble) - 4.7.0-1
+
+The packages in the `pmb2_navigation` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble pmb2_navigation --override-release-repository-push-url git@github.com:revyos-ros/pmb2_navigation-gbp.git` on `Sun, 15 Dec 2024 05:30:54 -0000`
+
+These packages were released:
+- `pmb2_2dnav`
+- `pmb2_laser_sensors`
+- `pmb2_navigation`
+- `pmb2_rgbd_sensors`
+
+Version of package(s) in repository `pmb2_navigation`:
+
+- upstream repository: https://github.com/pal-robotics/pmb2_navigation.git
+- release repository: https://github.com/revyos-ros/pmb2_navigation-gbp.git
+- rosdistro version: `4.5.0-1`
+- old version: `4.2.0-1`
+- new version: `4.7.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## pmb2_navigation (humble) - 4.2.0-1
 
 The packages in the `pmb2_navigation` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble pmb2_navigation --override-release-repository-push-url git@github.com:revyos-ros/pmb2_navigation-gbp.git` on `Mon, 23 Sep 2024 15:54:27 -0000`
