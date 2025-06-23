@@ -2,6 +2,55 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.17.0 (2025-06-03)
+-------------------
+* support namespaces
+* Contributors: antoniobrandi
+
+4.16.0 (2025-05-14)
+-------------------
+
+4.15.0 (2025-05-07)
+-------------------
+* fix laser sim
+* Contributors: antoniobrandi
+
+4.14.0 (2025-05-07)
+-------------------
+* fix hokuo
+* Contributors: antoniobrandi
+
+4.13.1 (2025-04-14)
+-------------------
+* fixed laser angles
+* Contributors: andreacapodacqua
+
+4.13.0 (2025-04-03)
+-------------------
+* Adopt pal configuration
+* Contributors: antoniobrandi
+
+4.12.0 (2025-03-17)
+-------------------
+
+4.11.0 (2025-02-04)
+-------------------
+
+4.10.0 (2025-01-30)
+-------------------
+* uniform serial number in all laser
+* pass sn down as string
+* using serial_number for sick lasers
+* Contributors: antoniobrandi
+
+4.9.0 (2025-01-22)
+------------------
+
+4.8.0 (2025-01-21)
+------------------
+* added support to multiple topic remappings
+* Contributors: andreacapodacqua
+
 4.7.0 (2024-12-02)
 ------------------
 * Merge branch 'abr/feat/deps-and-specs' into 'humble-devel'
